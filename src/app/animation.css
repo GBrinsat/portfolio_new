@@ -105,12 +105,11 @@
 
 .ticker-wrap-vertical {
   overflow: hidden;
+  box-sizing: content-box;
 }
 
 .ticker-top {
   display: inline-block;
-  height: 4rem;
-  line-height: 4rem;
   white-space: nowrap;
   padding-left: 100%;
 
@@ -126,8 +125,6 @@
 
 .ticker-bottom {
   display: inline-block;
-  height: 4rem;
-  line-height: 4rem;
   white-space: nowrap;
   padding-left: 100%;
 
@@ -142,8 +139,6 @@
 }
 
 .ticker-right {
-  display: flex;
-  flex-direction: column;
   justify-content: space-between;
   padding-bottom: 500px;
 
@@ -158,8 +153,6 @@
 }
 
 .ticker-left {
-  display: flex;
-  flex-direction: column;
   justify-content: space-between;
   padding-top: 500px;
 
