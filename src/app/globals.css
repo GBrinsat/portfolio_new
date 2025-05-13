@@ -29,6 +29,18 @@ body {
   font-family: var(--font-roboto);
 }
 
-.font-dancing {
-  font-family: var(--font-dancingScript);
+.font-montserrat {
+  font-family: var(--font-montserrat);
+}
+
+.font-workSans {
+  font-family: var(--font-workSans);
+}
+
+.activeNavline {
+  background-color: oklch(94.5% 0.129 101.54);
+}
+
+.activeText {
+  color: oklch(94.5% 0.129 101.54);
 }
